@@ -1,0 +1,11 @@
+body {
+    margin: unset;
+    background-color: rgba(0,0,28,1);
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}

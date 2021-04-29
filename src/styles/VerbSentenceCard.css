@@ -1,0 +1,37 @@
+.verb-sentence-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid green;
+    
+}
+
+.verb-sentence {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 15vh;
+    width: 60vw;
+    border-bottom: 1px solid red;
+    color: white;
+    font-size: 32px;
+}
+
+.verb-options-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.verb-option {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+    padding: 10px;
+    color: white;
+    width: 10vw;
+    height: 50px;
+    border: 1px solid grey;
+    background-color: rgba(0,0,28,0.6);
+}
